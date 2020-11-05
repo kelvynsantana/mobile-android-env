@@ -31,7 +31,7 @@ echo "Installing Android Studio"
 sudo snap install android-studio --classic
 
 echo "Generating a SSH Key"
-ssh-keygen -t rsa -b 4096 -C $git_config_user_email
+ssh-keygen -t rsa -b 4096
 ssh-add ~/.ssh/id_rsa
 cat ~/.ssh/id_rsa.pub
 
