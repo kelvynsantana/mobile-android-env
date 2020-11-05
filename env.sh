@@ -3,13 +3,11 @@ echo "Install Git"
 sudo apt install git -y
 
 echo "What name do you want to use in GIT user.name?"
-echo "For example, mine will be \"kelvynsantana\""
 read git_config_user_name
 git config --global user.name "$git_config_user_name"
 clear 
 
 echo "What email do you want to use in GIT user.email?"
-echo "For example, mine will be \"kelvyn.santana.ext@talentfour.com.br\""
 read git_config_user_email
 git config --global user.email $git_config_user_email
 clear
