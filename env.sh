@@ -27,10 +27,10 @@ sudo dpkg -i discord.deb
 sudo apt-get install -f -y && rm discord.deb
 
 echo 'Installing Sublime Text'
-sudo snap install sublime-text --classic -y
+sudo snap install sublime-text --classic
 
 echo "Installing Android Studio"
-sudo snap install android-studio --classic -y
+sudo snap install android-studio --classic
 
 echo "Generating a SSH Key"
 ssh-keygen -t rsa -b 4096 -C $git_config_user_email
